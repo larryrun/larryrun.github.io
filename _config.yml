@@ -1,4 +1,10 @@
-theme: jekyll-theme-midnight
-title: Larry's Home
-description: keep curious
-show_downloads: false
+title: Larry's workshop
+site.google_analytics: UA-43389130-2
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
